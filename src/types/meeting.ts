@@ -1,7 +1,7 @@
 export type Meeting = {
-    id : string;
-    title : string;
-    description : string;
-    meetingTime : Date;
-    createdAt : Date
-}
+  id: string;
+  title: string;
+  startTime: string;
+  createdAt: string;
+  notified?: boolean;
+};
